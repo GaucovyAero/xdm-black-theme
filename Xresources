@@ -1,0 +1,43 @@
+Xcursor.theme: default
+
+xlogin*login.translations: #override \
+	Ctrl<Key>R: abort-display()\n\
+	<Key>F1: set-session-argument(failsafe) finish-field()\n\
+	<Key>Delete: delete-character()\n\
+	<Key>Left: move-backward-character()\n\
+	<Key>Right: move-forward-character()\n\
+	<Key>Home: move-to-begining()\n\
+	<Key>End: move-to-end()\n\
+	Ctrl<Key>KP_Enter: set-session-argument(failsafe) finish-field()\n\
+	<Key>KP_Enter: set-session-argument() finish-field()\n\
+	Ctrl<Key>Return: set-session-argument(failsafe) finish-field()\n\
+	<Key>Return: set-session-argument() finish-field()
+
+!xlogin*greeting: Welcome to CLIENTHOST
+xlogin*greeting: 
+xlogin*namePrompt: \040\040\040\040\040\040\Login:
+xlogin*fail: Login incorrect or forbidden by policy
+xlogin*greetFace:	Hack-9
+xlogin*face: 		Hack-9
+xlogin*promptFace: 	Hack-9
+xlogin*failFace: 	Hack-9
+
+xlogin*borderWidth: 0
+xlogin*frameWidth: 0
+xlogin*innerFramesWidth: 0
+
+! robi to tu krajsiu ciaru ten shd
+xlogin*shdColor: black
+xlogin*hiColor: black
+
+xlogin*background: black
+
+! cierny background na username a passwd
+xlogin*inpColor: black
+
+xlogin*foreground: white
+xlogin*greetColor: white
+xlogin*failColor: white
+xlogin*promptColor: white
+*Foreground: white
+*Background: black
